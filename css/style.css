@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+body {
+  background-image: url(../../../../Desktop/back.svg);
+  background-size: cover;
+  min-height: 100vh;
+  background-position: center top;
+  color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: center !important;
+  font-weight: 900 !important;
+}
+
+body h1 {
+  text-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
+}
+
+body .timeline {
+  margin: 0 auto;
+  width: 400px;
+  height: 16px;
+  border-radius: 10px;
+  background-color: #c4c4c4;
+  overflow: hidden;
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.35);
+}
+
+body .timeline .time {
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #161f6c;
+}
+
+body .box {
+  font-size: 40px;
+  border-radius: 30px;
+  padding: 30px;
+  -webkit-box-shadow: 0 14px 24px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 14px 24px 0 rgba(0, 0, 0, 0.4);
+  background-color: white;
+  color: #1D2092;
+  display: inline-block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  min-width: 100px;
+}
+
+body .level {
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 6px 10px rgba(0, 0, 0, 0.35);
+  position: fixed;
+  top: 20px;
+  left: 40px;
+}
+
+body .success {
+  background-color: #4dd44d !important;
+}
+
+body .error {
+  background-color: red;
+}
+
+body #modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #modal .modal-panel {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 15px;
+  position: relative;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.5);
+  -webkit-animation-name: zoomin;
+          animation-name: zoomin;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+          animation-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+/*# sourceMappingURL=style.css.map */
